@@ -1,4 +1,4 @@
-package removeDuplicatesfromSortedArray;
+package topInterviewQuestions;
 
 import java.util.Arrays;
 
