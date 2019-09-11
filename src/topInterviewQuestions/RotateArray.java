@@ -26,7 +26,7 @@ import java.util.Arrays;
 	Could you do it in-place with O(1) extra space?
 */
 
-// unsolved
+// unsolved problem
 
 public class RotateArray {
 
