@@ -34,7 +34,7 @@ package topInterviewQuestions;
 
 
 
-public class BestTimeToBuyAndSellStockII {
+public class Arr02_BestTimeToBuyAndSellStockII {
 
 	public static void main(String[] args) {
 		int[] prices = {7,6,4,3,1};

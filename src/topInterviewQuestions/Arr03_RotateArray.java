@@ -28,7 +28,7 @@ import java.util.Arrays;
 
 // unsolved problem
 
-public class RotateArray {
+public class Arr03_RotateArray {
 
 	public static void main(String[] args) {
 		int[] arr = {-1,-100,3,99};
