@@ -21,7 +21,7 @@ import java.util.Arrays;
 public class RotateArray {
 	
 	public static void main(String[] args) {
-		int[] arr = {1,2,3,4};
+		int[] arr = {1,2,3,4,5,6,7};
 		int k = 3;
 		// 2, 3, 4, 1
 		
@@ -40,7 +40,7 @@ public class RotateArray {
     	{
     		int anchorIndex = k;
 	        
-	        for (int i = nums.length - 1; i >= 0; i++) {
+	        for (int i = nums.length - 1; i >= 0; i--) {
 	        	swapArrayElement(nums, i, anchorIndex);
 	        	if (anchorIndex % k + k != i) {
 	        		swapArrayElement(nums, i, anchorIndex  % k + k - 1);
