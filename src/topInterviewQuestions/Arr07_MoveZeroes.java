@@ -16,10 +16,12 @@ import java.util.Arrays;
 
 public class Arr07_MoveZeroes {
 
+	
 	public static void main(String[] args) {
-		int[] nums = {1};
+		int[] nums = {0,1,0,3,12};
 		
 		moveZeroes(nums);
+		
 		
 		System.out.println(Arrays.toString(nums));
 
@@ -29,7 +31,7 @@ public class Arr07_MoveZeroes {
         int index = -1;
         
         for (int i = 0; i < nums.length; i++)
-        	if (nums[i] != 0 && i != ++index)
+        	if (nums[i] != 0)
         		swap(nums, i, ++index);
     }
     

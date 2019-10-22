@@ -8,6 +8,8 @@ public class CustomMethods {
     	s[b] = (char) ((int)s[a] - (int)s[b]);
     	s[a] = (char) ((int)s[a] - (int)s[b]);
     }
+    
+
 }
 
 
